@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/style.css">
-</head>
-<body class="dark-theme">
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-</body>
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
