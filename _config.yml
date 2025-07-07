@@ -1,0 +1,9 @@
+title: "Albienut"
+description: "Albienut is about music"
+baseurl: ""
+url: "https://albienut.github.io"
+theme: null
+markdown: kramdown
+collections:
+  gallery:
+    output: true
